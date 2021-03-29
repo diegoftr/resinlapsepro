@@ -57,7 +57,7 @@ void loop()
       fotoTirada = gp.shoot();
       if (fotoTirada)
       {
-        delay(2000);
+        delay(500);
       }
     }
     if (sensorValue <= -28)
